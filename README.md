@@ -3,7 +3,7 @@ A simple cli for searching devdocs.io made in deno. In very early stages.
 
 ---
 ## Install
-run `deno install -A --unsafe https://github.com/ab3-dev/deno-devdocs/raw/master/ddocs.ts`
+run `deno install -A --unstable https://github.com/ab3-dev/deno-devdocs/raw/master/ddocs.ts`
 
 ## Use
 Currently there is one command, `search`, which does what you think. run `ddocs search` and you will get a prompt asking for the language you want to search. Alternatively, just run `ddocs search <lang>`.
